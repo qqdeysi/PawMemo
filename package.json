@@ -1,0 +1,31 @@
+{
+  "name": "pawmemo",
+  "version": "1.0.0",
+  "description": "A collaborative pet care app for tracking daily care, health records, and expenses.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qqdeysi/PawMemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/qqdeysi/PawMemo/issues"
+  },
+  "homepage": "https://github.com/qqdeysi/PawMemo#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
